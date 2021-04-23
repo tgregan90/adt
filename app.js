@@ -22,7 +22,7 @@ function printResults(){
         li.insertAdjacentHTML("beforeend", resultNode);
         list.appendChild(li);
     }
-    document.body.insertAdjacentElement("beforeend",list);
+    document.body.insertAdjacentElement("afterbegin",list);
 }
 
 runScript();
